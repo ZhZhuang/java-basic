@@ -4,6 +4,10 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * 动态代理模式 demo
+ */
+
 // 创建一个接口，表示要代理的服务
 interface Calculator {
     int add(int a, int b);
